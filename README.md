@@ -1,20 +1,28 @@
-Copyright 2016, TekCafe Team
+# TWRP Device tree for Pantech VEGA IRON2 (ef63)
 
-Device Tree For PANTECH SKY VEGA IRON 2
-=======================================
+## About VEGA IRON2
 
-Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | Quad-core 2.3 GHz Krait 400
-CHIPSET | Qualcomm Snapdragon 801
-GPU     | Adreno 330
-Display | 5.3" Full HD Super AMOLED Display (1920 x 1080)
-Memory  | 3GB RAM
-Storage | 32GB
-MicroSD | Up to 256 GB
-Battery | 3,220 mAh
-Dimensions | 144.2 x 73.5 x 7.9mm - 152g(Black), 153g(White)
-Camera  | 13M wide OIS / 2.1M FULL HD
+VEGA IRON2 is the smartphone of Pantech from South Korea, which was released in 2014.
 
+Basic                   | Spec Sheet
+-----------------------:|:-------------------------
+CHIPSET                 | Qualcomm Snapdragon 801 (MSM8974AB)
+CPU                     | Qualcomm Krait 400 2.3 GHz Quad-core
+GPU                     | Qualcomm Adreno 330 578 MHz
+RAM                     | 3 GB
+Storage                 | 32 GB
+Display                 | 5.3" Full HD(1920 x 1080) Super AMOLED
+Camera                  | 13 MP, f/2.0, OIS / 2.1M FULL HD
+Front Camera            | 2 MP
+Battery                 | 3,220 mAh Removable
+Dimensions              | 144.2 x 73.5 x 7.9mm - 152g(Black), 153g(White)
+Shipped Android Version | Android 4.4.2 Kitkat
+MicroSD                 | Up to 2 TB
 
-![SKY VEGA IRON 2](http://pantech.co.kr/cmm/fms/getImage.do?atchFileId=FILE_000000000008005&fileSn=1 "SKY VEGA IRON2")
+## Kernel source
+https://github.com/sky-vega-dev-team/kernel_pantech_msm8x74/tree/ten
+
+## How to build
+```bash
+export ALLOW_MISSING_DEPENDENCIES=true && . build/envsetup.sh && lunch omni_ef63-eng && mka clean && mka recoveryimage
+```
