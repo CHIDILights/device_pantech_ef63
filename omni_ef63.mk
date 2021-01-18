@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Release name
+PRODUCT_RELEASE_NAME := ef63
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, build/target/product/embedded.mk)
 
