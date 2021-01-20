@@ -1,4 +1,4 @@
-# TWRP Device tree for Pantech VEGA IRON2 (ef63)
+# PBRP Device tree for Pantech VEGA IRON2 (ef63)
 
 ## About VEGA IRON2
 
