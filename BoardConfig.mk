@@ -75,3 +75,7 @@ BOARD_SUPPRESS_SECURE_ERASE			  := true
 BOARD_SUPPRESS_EMMC_WIPE 				  := true
 RECOVERY_SDCARD_ON_DATA 				  := true
 RECOVERY_GRAPHICS_USE_LINELENGTH  := true
+TW_USE_TOOLBOX 										:= true
+
+# PBRP
+# PB_TORCH_PATH := /sys/class/leds/torch-flash
