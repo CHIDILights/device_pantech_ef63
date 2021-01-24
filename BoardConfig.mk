@@ -19,7 +19,7 @@ PLATFORM_PATH := device/pantech/ef63
 -include device/pantech/msm8974-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ef63l,ef63s,ef63k
+TARGET_OTA_ASSERT_DEVICE := ef63,ef63s,ef63k,ef63l
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/bluetooth
