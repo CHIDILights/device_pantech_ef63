@@ -1,20 +1,17 @@
 Copyright 2016, TekCafe Team
 
-Device Tree For PANTECH SKY VEGA IRON 2
+Device Tree For PANTECH VEGA IRON 2
 =======================================
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Quad-core 2.3 GHz Krait 400
-CHIPSET | Qualcomm Snapdragon 801
-GPU     | Adreno 330
-Display | 5.3" Full HD Super AMOLED Display (1920 x 1080)
-Memory  | 3GB RAM
-Storage | 32GB
-MicroSD | Up to 256 GB
+AP	| Qualcomm Snapdragon 801
+CPU     | Qualcomm Krait 400 Quad-core 2.3 GHz
+GPU     | Qualcomm Adreno 330 578 MHz
+Display | 5.3" Full HD Super AMOLED
+Memory  | 3 GB
+Storage | 32 GB
+MicroSD | Up to 2 TB
 Battery | 3,220 mAh
 Dimensions | 144.2 x 73.5 x 7.9mm - 152g(Black), 153g(White)
-Camera  | 13M wide OIS / 2.1M FULL HD
-
-
-![SKY VEGA IRON 2](https://github.com/rlawoehd187/device_images/blob/main/Iron2.jpg?raw=true "SKY VEGA IRON2")
+Camera  | Rear - 13MP, wide OIS / Front - 2.1MP

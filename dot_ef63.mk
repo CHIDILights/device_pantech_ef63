@@ -20,24 +20,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ef63 device
 $(call inherit-product, device/pantech/ef63/ef63.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common dotOS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/pantech/ef63/ef63-vendor.mk)
 
-PRODUCT_NAME := lineage_ef63
+PRODUCT_NAME := dot_ef63
 PRODUCT_DEVICE := ef63
-PRODUCT_MANUFACTURER := PANTECH
-PRODUCT_MODEL := VEGA IRON 2
+PRODUCT_MANUFACTURER := Pantech
+PRODUCT_BRAND := VEGA
+PRODUCT_MODEL := VEGA IRON2
 
-PRODUCT_BRAND := PANTECH
 TARGET_VENDOR := PANTECH
 TARGET_VENDOR_PRODUCT_NAME := ef63
 TARGET_VENDOR_DEVICE_NAME := ef63
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ef63-user 6.0.1 MHC19Q ZNH2KAS1KN release-keys" 
+    PRIVATE_BUILD_DESC="ef63-user 6.0.1 MHC19Q ZNH2KAS1KN release-keys"
 
 BUILD_FINGERPRINT := pantech/ef63:6.0.1/MHC19Q/ZNH2KAS1KN:user/release-keys

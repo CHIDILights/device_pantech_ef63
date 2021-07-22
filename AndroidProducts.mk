@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
  PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ef63.mk
+    $(LOCAL_DIR)/dot_ef63.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ef63-user \
-    lineage_ef63-userdebug \
-    lineage_ef63-eng
+    dot_ef63-user \
+    dot_ef63-userdebug \
+    dot_ef63-eng
